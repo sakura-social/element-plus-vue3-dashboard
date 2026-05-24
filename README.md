@@ -23,6 +23,9 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
+## Using element-plus for ui components 
+see [element-plus] (https://element-plus.org/en-US/).
+
 ## Project Setup
 
 ```sh
@@ -32,7 +35,7 @@ pnpm install
 ### Compile and Hot-Reload for Development
 
 ```sh
-pnpm dev
+pnpm run dev
 ```
 
 ### Type-Check, Compile and Minify for Production
