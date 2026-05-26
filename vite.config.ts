@@ -12,7 +12,7 @@ export default defineConfig({
     vueDevTools(),
     svgLoader(),
   ],
-  base: '/sakura-social/',
+  base: '/element-plus-vue3-dashboard/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
